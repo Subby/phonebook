@@ -1,0 +1,1 @@
+Source code for a tutorial created for the [IsAwesum Blog](http://isawesum.net/blog/create-a-phonebook-using-angularjs/). Features a [AngularJS](http://angularjs.org/) based phonebook.

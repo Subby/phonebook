@@ -1,0 +1,18 @@
+<html lang="en" ng-app>
+	<head>
+		<title>Phonebook</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script src="phone.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	  <h1>My Phonebook</h1>
+	  <div ng-controller="ContactListCtrl">
+	  	<ul>
+	  	 <li ng-repeat="contact in contacts">
+	  	 <a href="{{contact.link}}">{{contact.name}}</a>
+	  	 </li>
+	  	</ul>
+	  </div>
+	</body>
+</html>
